@@ -1,0 +1,3 @@
+SELECT * FROM journeys JOIN journeys as ajourneys
+on journeys.destination = ajourneys.source
+and ajourneys.destination = 'Berlin'

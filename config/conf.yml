@@ -1,0 +1,10 @@
+APP:
+  REDIS_URL: 127.0.0.1
+  CACHE_TIME: 600
+
+DATABASE:
+  USERNAME: postgres
+  PASSWORD: password
+  HOST: localhost
+  PORT: 5432
+  DB: merry_python_weekend
