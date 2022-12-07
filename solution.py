@@ -28,6 +28,7 @@ def main(date, src, des):
     Data is returned to be displayed as API GET request output.
     Data is stored in Database.
     """
+    print('hahaha')
 
     the_key = f'{slugify(src, separator=DM)}' \
               f':{slugify(des, separator=DM)}' \
@@ -55,4 +56,3 @@ def main(date, src, des):
                                 departure_datetime, arrival_datetime)
 
     return data
-
